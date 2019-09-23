@@ -223,14 +223,14 @@ public class AdActivity extends AppCompatActivity implements View.OnClickListene
     private void uploadImage(DocumentReference documentReference) {
         StorageReference storageReference = FirebaseStorage.getInstance().getReference();
         if (filepath != null) {
-            String photoPath = "images/" + currentAd.getName() + "/" + UUID.randomUUID().toString();
+            String photoPath = "images/" + nameEditText.getText().toString() + "/" + UUID.randomUUID().toString();
             StorageReference ref = storageReference.child(photoPath);
             ref.putFile(filepath);
             currentAd.getImagesUrls().add(photoPath);
             documentReference.update("imagesUrls", currentAd.getImagesUrls());
         }
         if (mainFilePath != null) {
-            String mainPhotoPath = "images/" + currentAd.getName() + "/" + UUID.randomUUID().toString();
+            String mainPhotoPath = "images/" + nameEditText.getText().toString() + "/" + UUID.randomUUID().toString();
             StorageReference reference = storageReference.child(mainPhotoPath);
             reference.putFile(mainFilePath);
             documentReference.update("mainImageUrl", mainPhotoPath);
@@ -246,8 +246,9 @@ public class AdActivity extends AppCompatActivity implements View.OnClickListene
     public void onBackPressed() {
 
         if (nameEditText.getText().toString().equals("") || contactEditText.getText().toString().equals("") || rentPriceEditText.getText().toString().equals("") ||
-                contentEditText.getText().toString().equals("") || locationEditText.getText().toString().equals("") || locationEditText.getText().toString().equals("") ||
-                currentAd.getMainImageUrl().equals("null") || currentAd.getImagesUrls().size() == 0) {
+                contentEditText.getText().toString().equals("") || locationEditText.getText().toString().equals("") || locationEditText.getText().toString().equals("")
+               // currentAd.getMainImageUrl().equals("null") || currentAd.getImagesUrls().size() == 0
+        ) {
             Toast.makeText(AdActivity.this, "يرجى تعبئة جميع البيانات المطلوبة", Toast.LENGTH_LONG).show();
         } else {
             updateAd();
