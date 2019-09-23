@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".AdActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center|fill_horizontal"
+            android:layout_row="0"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/title"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_columnSpan="2"
+            android:layout_row="1">
+
+
+            <ImageView
+                android:id="@+id/mainImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/mainimageview" />
+
+            <Button
+                android:id="@+id/changePhotoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:text="@string/changePhoto" />
+
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="4"
+            android:hint="@string/nameExample"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="4"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/detailedAddressEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="5"
+            android:hint="@string/detailedAddressExample"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_row="5"
+            android:text="@string/detailedAddress"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/contactEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="6"
+            android:hint="@string/numberExample"
+            android:inputType="phone"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="6"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/rentPriceEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="7"
+            android:hint="@string/rentExample"
+            android:inputType="number"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="7"
+            android:gravity="center"
+            android:text="@string/dailyRent"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="8"
+            android:gravity="center"
+            android:text="@string/content"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/contentEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="9"
+            android:hint="@string/contentHint"
+            android:inputType="textMultiLine"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/locationEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="13"
+            android:hint="@string/locationExample"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="13"
+            android:gravity="center"
+            android:text="@string/location"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="14"
+            android:gravity="center"
+            android:text="@string/statue"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/statueSwitchCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="14"
+            android:padding="5dp"
+            android:textOff="@string/rented"
+            android:textOn="@string/available"
+            android:textSize="15sp"
+            app:showText="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="15"
+            android:gravity="center"
+            android:text="@string/features"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/poolCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="16"
+            android:text="@string/pool" />
+
+        <CheckBox
+            android:id="@+id/goodViewCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="16"
+            android:text="@string/goodView" />
+
+        <CheckBox
+            android:id="@+id/electricCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="17"
+            android:text="@string/electric" />
+
+        <CheckBox
+            android:id="@+id/kidsPoolCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="17"
+            android:text="@string/kidsPool" />
+
+        <CheckBox
+            android:id="@+id/closeToTownCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="18"
+            android:text="@string/closeToTown" />
+
+        <CheckBox
+            android:id="@+id/waterCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="18"
+            android:text="@string/water" />
+
+        <CheckBox
+            android:id="@+id/tvCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="19"
+            android:text="@string/tv" />
+
+        <CheckBox
+            android:id="@+id/parkingPlaceCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="19"
+            android:text="@string/parkingPlace" />
+
+        <CheckBox
+            android:id="@+id/bedroomsCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="20"
+            android:text="@string/bedrooms" />
+
+        <CheckBox
+            android:id="@+id/kitchenCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="20"
+            android:text="@string/kitchen" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imagesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_columnSpan="2"
+            android:layout_row="21"
+            android:contentDescription="@string/uploaded_photo" />
+
+        <ImageButton
+            android:id="@+id/addImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="22"
+            android:background="@color/colorAccent"
+            android:contentDescription="@string/addImageButton"
+            android:src="@drawable/ic_add" />
+
+        <ImageView
+            android:id="@+id/viewChosenImageImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_row="23"
+            android:contentDescription="@string/viewChosenImageImageView" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="26"
+            android:text="@string/save" />
+
+    </GridLayout>
+
+
+</ScrollView>

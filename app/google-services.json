@@ -1,0 +1,196 @@
+{
+  "project_info": {
+    "project_number": "465147914585",
+    "firebase_url": "https://al-bawaba.firebaseio.com",
+    "project_id": "al-bawaba",
+    "storage_bucket": "al-bawaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465147914585:android:271ae0ef2bfb71b9",
+        "android_client_info": {
+          "package_name": "com.alsalam.al_bawaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465147914585-oun7rlcl8r6d4gm36r8nkah7bbrh9fmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alsalam.al_bawaba",
+            "certificate_hash": "a6f9f22cc5015b886d41df627ee879901535fe34"
+          }
+        },
+        {
+          "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBimGgzfTr-JlovdiRGD3G7p1nLbhqpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465147914585:android:6e6a6124f0810e2e",
+        "android_client_info": {
+          "package_name": "com.alsalam.al_bawaba_cp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465147914585-8mu0j6sdb5lhi104udmo54fodfkjjtl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alsalam.al_bawaba_cp",
+            "certificate_hash": "a6f9f22cc5015b886d41df627ee879901535fe34"
+          }
+        },
+        {
+          "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBimGgzfTr-JlovdiRGD3G7p1nLbhqpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465147914585:android:1c8c5e79ad502bec",
+        "android_client_info": {
+          "package_name": "com.alsalam.al_bawabacontrolpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465147914585-djp90ds3ug7jvddcf2da8jmf1hcdfoke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alsalam.al_bawabacontrolpanel",
+            "certificate_hash": "a6f9f22cc5015b886d41df627ee879901535fe34"
+          }
+        },
+        {
+          "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBimGgzfTr-JlovdiRGD3G7p1nLbhqpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465147914585:android:437dd39870a87472",
+        "android_client_info": {
+          "package_name": "com.example.al_bawaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465147914585-fibus1235n5m3j48n2b2hov5vgoqr7th.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.al_bawaba",
+            "certificate_hash": "a63eb08ceefd51be14316350e8d400462dfa2071"
+          }
+        },
+        {
+          "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBimGgzfTr-JlovdiRGD3G7p1nLbhqpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465147914585:android:c1f5b6cded81bb31",
+        "android_client_info": {
+          "package_name": "com.example.albawabacp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465147914585-dcb0j7sscvolnk473piglnf274m822ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.albawabacp",
+            "certificate_hash": "a63eb08ceefd51be14316350e8d400462dfa2071"
+          }
+        },
+        {
+          "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmBimGgzfTr-JlovdiRGD3G7p1nLbhqpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465147914585-c9fa0b599851bili4sd2e0jlnscetu59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
